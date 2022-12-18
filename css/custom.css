@@ -579,6 +579,13 @@ button.owl-prev span {
     display: block;
     cursor: pointer;
   }
+  .headsocialprt {
+    display: none;
+  }
+  a.logomain {
+    display: block;
+    text-align: left;
+  }
   .hedrmenusec ul li:hover ul {
     position: relative;
     left: 0px;
@@ -613,6 +620,17 @@ button.owl-prev span {
   .hedrmenusec ul li {
     display: block;
   }
+  .hedrmenusec ul li a {
+    padding: 6px 0px;
+  }
+  .hedrmenusec {
+    display: none
+  }
+  .hedrlogosec .row {
+    min-height: 100px;
+    max-height: 100px;
+  }
+
 }
 
 /* Extra small devices (phones, 600px and down) */
