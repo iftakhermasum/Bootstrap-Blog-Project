@@ -1,9 +1,12 @@
 jQuery(document).ready(function(){
 
+// header search form
     jQuery(".headrsrchwrp img").click(function(){
         jQuery(".headrsrchwrp form").toggle();
     });
 
+
+// owl carousel
     jQuery('.owl-carousel').owlCarousel({
         loop:true,
         nav:true,
@@ -20,9 +23,14 @@ jQuery(document).ready(function(){
                 items:3
             }
         }
-    })
-
-    jQuery(".hambargerbox").click(function(){
-        jQuery(".mainmenuwrap").toggle();
     });
+
+
+//  menu toggle  
+    jQuery(".hambargerbox").click(function(){
+        jQuery(".hedrmenusec").toggle();
+    });
+
+
+
   });
